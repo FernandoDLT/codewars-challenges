@@ -5,7 +5,7 @@
 function removeFirstAndLastChar(str){
     return str.slice(1,-1)
 }
-console.log(removeFirstAndLastChar('Carl'))
-console.log(removeFirstAndLastChar('Pedro'))
-console.log(removeFirstAndLastChar('Jaguar'))
-console.log(removeFirstAndLastChar('Santa Maria'))
+console.log(removeFirstAndLastChar('Carl')) // Remnoves 'C' and 'l'
+console.log(removeFirstAndLastChar('Pedro')) // Removes 'P' and 'o'
+console.log(removeFirstAndLastChar('Jaguar')) // Removes 'J' and 'r'
+console.log(removeFirstAndLastChar('Santa Maria')) //Removes 'S' amnd 'a'
