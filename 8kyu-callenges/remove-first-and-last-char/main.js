@@ -5,6 +5,7 @@
 // function removeFirstAndLastChar(str){
 //     return str.slice(1,-1)
 // }
+
 const removeFirstAndLastChar = str => str.slice(1,-1)
 
 console.log(removeFirstAndLastChar('Carl'))
