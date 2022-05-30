@@ -8,4 +8,4 @@ function removeFirstAndLastChar(str){
 console.log(removeFirstAndLastChar('Carl')) // Remnoves 'C' and 'l'
 console.log(removeFirstAndLastChar('Pedro')) // Removes 'P' and 'o'
 console.log(removeFirstAndLastChar('Jaguar')) // Removes 'J' and 'r'
-console.log(removeFirstAndLastChar('Santa Maria')) //Removes 'S' amnd 'a'
+console.log(removeFirstAndLastChar('Santa Maria')) //Removes 'S' and 'a'
