@@ -10,7 +10,7 @@
 // 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
 
   var summation = function (num) {
-    return (num *(num + 1)) /2;
+    return (num *(num + 1)) / 2;
   }
   console.log(summation(20))
 
