@@ -19,3 +19,8 @@ function toUpperCase(str){
 }
 console.log(toUpperCase('Ferndiddy'))
 console.log(toUpperCase('That Michael Jordan is a real phony!'))
+
+// Shorthand option; Clean, less lines of code (=>)
+
+const makeBigLetter = str => str.toUpperCase();
+console.log(makeBigLetter("ferndiddy"))
