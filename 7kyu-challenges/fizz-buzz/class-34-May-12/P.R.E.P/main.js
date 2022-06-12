@@ -26,33 +26,32 @@
 // }
 // console.log(fizzBuzz(5))
 
-// function* fizzBuzz(n) {
-//     let i = 0;
-//     while (i++ < n) {
-//       yield (i % 3 === 0 ? 'Fizz' : '') + (i % 5 === 0 ? 'Buzz' : '') || i;
-//     }
-//   }
+function* fizzBuzz(n) {
+    let i = 0;
+    while (i++ < n) {
+      yield (i % 3 === 0 ? 'Fizz' : '') + (i % 5 === 0 ? 'Buzz' : '') || i;
+    }
+  }
   
-//   [...fizzBuzz(15)].forEach(v => console.log(v));
-//   [...fizzBuzz(3)].forEach(v => console.log(v));
-//   [...fizzBuzz(5)].forEach(v => console.log(v));
+  [...fizzBuzz(15)].forEach(v => console.log(v));
+  [...fizzBuzz(3)].forEach(v => console.log(v));
+  [...fizzBuzz(5)].forEach(v => console.log(v));
 
 // Best Practice
-  function fizzbuzz(n)
-{
-  var i = 1, arr = [];
-  while(i <= n) {
-    var fizz = (i % 3 == 0);
-    var buzz = (i % 5 == 0);
-    if(fizz || buzz) {
-      arr.push((fizz?"Fizz":"") + (buzz?"Buzz":""));
-    }
-    else {
-      arr.push(i);
-    }
-    i++;
-  }
-  return arr;
-}
+// function fizzbuzz(n) {
+//   var i = 1, arr = [];
+//   while(i <= n) {
+//     var fizz = (i % 3 == 0);
+//     var buzz = (i % 5 == 0);
+//     if(fizz || buzz) {
+//       arr.push((fizz?"Fizz":"") + (buzz?"Buzz":""));
+//     }
+//     else {
+//       arr.push(i);
+//     }
+//     i++;
+//   }
+//   return arr;
+// }
 
-var fizzify = fizzbuzz;
+// var fizzify = fizzbuzz;
