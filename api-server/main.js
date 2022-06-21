@@ -1,3 +1,6 @@
+// API using terminal to setup localhost:8000
+// Result: In working condition
+
 const http = require('http')
 const fs = require('fs')
 http.createServer((req, res) => {
